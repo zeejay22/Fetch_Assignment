@@ -15,6 +15,7 @@ A command-line utility that fetches location information using the OpenWeather G
 1. Clone the repository:
    
 git clone https://github.com/zeejay22/Fetch_Assignment.git
+
 cd Fetch_Assignment
 
 2. Install dependencies:
