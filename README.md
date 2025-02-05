@@ -43,7 +43,7 @@ python geoloc-util.py --api-key YOUR_API_KEY "Madison, WI"
 
 To run the integration tests:
 
-pytest tests/
+pytest integration-tests.py
 
 ## Requirements
 
