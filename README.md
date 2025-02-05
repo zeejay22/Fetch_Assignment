@@ -27,13 +27,13 @@ pip install -r requirements.txt
 The utility can be run from the command line with one or more locations:
 
 # Single location
-python src/geoloc_util.py "Madison, WI"
+python geoloc-util.py "Madison, WI"
 
 # Multiple locations
-python src/geoloc_util.py "Madison, WI" "12345" "Chicago, IL"
+python geoloc-util.py "Madison, WI" "12345" "Chicago, IL"
 
 # Using a custom API key
-python src/geoloc_util.py --api-key YOUR_API_KEY "Madison, WI"
+python geoloc-util.py --api-key YOUR_API_KEY "Madison, WI"
 
 ### Input Formats
 - City and state: "City, ST" (e.g., "Madison, WI")
