@@ -13,27 +13,18 @@ A command-line utility that fetches location information using the OpenWeather G
 ## Installation
 
 1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/geolocation-utility.git
-cd geolocation-utility
-```
+   
+git clone https://github.com/zeejay22/Fetch_Assignment.git
+cd Fetch_Assignment
 
-2. Create a virtual environment and activate it:
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
+2. Install dependencies:
 
-3. Install dependencies:
-```bash
 pip install -r requirements.txt
-```
 
 ## Usage
 
 The utility can be run from the command line with one or more locations:
 
-```bash
 # Single location
 python src/geoloc_util.py "Madison, WI"
 
@@ -42,7 +33,6 @@ python src/geoloc_util.py "Madison, WI" "12345" "Chicago, IL"
 
 # Using a custom API key
 python src/geoloc_util.py --api-key YOUR_API_KEY "Madison, WI"
-```
 
 ### Input Formats
 - City and state: "City, ST" (e.g., "Madison, WI")
@@ -52,16 +42,7 @@ python src/geoloc_util.py --api-key YOUR_API_KEY "Madison, WI"
 
 To run the integration tests:
 
-```bash
 pytest tests/
-```
-
-The tests use the default API key. To use a different key, set the environment variable:
-
-```bash
-export OPENWEATHER_API_KEY=your_api_key
-pytest tests/
-```
 
 ## Requirements
 
